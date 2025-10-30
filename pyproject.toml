@@ -1,0 +1,25 @@
+[project]
+name = "games_project_abdumalikov"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prompt>=0.4.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.setuptools]
+packages = ["games_project_abdumalikov"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.2",
+]
+
+[project.scripts]
+VD-games = "games_project_abdumalikov.VD_games.scripts.VD_main:main"
+VD-even = "games_project_abdumalikov.VD_games.scripts.VD_even:play_even_game"
