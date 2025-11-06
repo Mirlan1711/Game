@@ -24,3 +24,4 @@ dev = [
 VD-games = "games_project_abdumalikov.VD_games.scripts.VD_main:main"
 VD-even = "games_project_abdumalikov.VD_games.scripts.VD_even:play_even_game"
 VD-calc = "games_project_abdumalikov.VD_games.scripts.brain_calc:main"
+VD-gcd = "games_project_abdumalikov.VD_games.scripts.VD_gcd:main"
